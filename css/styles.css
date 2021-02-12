@@ -1,29 +1,38 @@
 body {
-    color: red
+    color: rgba(238, 12, 12, 0.801)
 }
 .main-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
+    display: inline-block;
     text-align: center;
     font-weight: bold;
+    margin-left: 5%;
     width: 90%;
     background-image:  url("https://static.vecteezy.com/system/resources/previews/001/919/268/non_2x/continuous-one-line-drawing-of-young-man-playing-skateboarding-boy-playing-competition-challenging-sport-isolated-on-white-background-sport-illustration-theme-minimalist-style-vector.jpg");
     background-position: center;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
     
 }
 .main-container  .header-and-intro {
     margin: 10% 0 10% 0;
     text-align: center;
+   
     
 }
+.main-container.header-and-intro h1 {
+    border-bottom: solid red 1px;
+    margin-bottom: 8%;
+}
 
-.main-container .articles  {
+
+.main-container .all-info  {
     border-top: rgba(255, 0, 0, 0.438) 1px;
 }
 
+.all-info .col articles h2 {
+    border-top:black solid 1px;
+    color: red;
+}
 
 
 
