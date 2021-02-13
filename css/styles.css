@@ -16,13 +16,17 @@ body {
     background-repeat: no-repeat;
     margin: 5% 0 10% 0;
     text-align: center;
-   
-    
 }
-.main-container.header-and-intro h1 {
-    border-bottom: solid red 1px;
-    margin-bottom: 8%;
+.info-header-intro {
+    height: 600px;
+    width: 800px;
+    margin-top: -10%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
 }
+
 .main-container .row {
     display: flex;
 }
@@ -35,6 +39,10 @@ body {
     margin: 0 15% 0 0%;
 }
 
+.main-container .row article h2 {
+    margin-bottom: 10%;
+    border-top: solid 1px green;
+}
 
 /* buttons*/
 
