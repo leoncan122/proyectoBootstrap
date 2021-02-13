@@ -5,38 +5,31 @@ body {
     display: inline-block;
     font-weight: bold;
     margin-left: 5%;
-    width: 90%;
-    /*background-attachment: fixed;*/
+    
+
     
 }
 .main-container  .header-and-intro {
-    padding: 20%;
     background-image:  url("https://static.vecteezy.com/system/resources/previews/001/919/268/non_2x/continuous-one-line-drawing-of-young-man-playing-skateboarding-boy-playing-competition-challenging-sport-isolated-on-white-background-sport-illustration-theme-minimalist-style-vector.jpg");
-    background-position: top;
+    background-position: right top;
     background-repeat: no-repeat;
     margin: 5% 0 10% 0;
     text-align: center;
 }
 .info-header-intro {
-    height: 600px;
-    width: 800px;
-    margin-top: -10%;
+    height: 700px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-between;
 }
 
-.main-container .row {
-    display: flex;
-}
-
-.main-container .row .col-md-7 {
-    align-self: center;
-}
 
 .main-container .row article {
     margin: 0 15% 0 0%;
+}
+.main-container .row article img {  
+    width: 60vh;
 }
 
 .main-container .row article h2 {
@@ -47,13 +40,10 @@ body {
 /* buttons*/
 
 .supporting {
-    margin: 20% 0;
+    margin: 0 0 15% 0;
 }
 
-.supporting .btn-group {
-    display: flex;
-    justify-content: center;
-}
+
 
 .btn-group button:first-child:hover, button:last-child:hover {
     background-color: white;
